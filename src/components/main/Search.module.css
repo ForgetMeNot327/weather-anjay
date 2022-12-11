@@ -1,0 +1,4 @@
+.input:focus + .input-left {
+  margin-left: -140px;
+  background-color: red;
+}
