@@ -1,7 +1,8 @@
 import { position } from "@chakra-ui/react";
 import { DateTime } from "luxon";
 
-const apiKey = process.env.REACT_APP_APIKEY;
+// const apiKey = process.env.REACT_APP_APIKEY;
+const apiKey = "a63af6b8302a55ec265a85c337918e29";
 
 export const getLatLon = async (city) => {
   const response = await fetch(
