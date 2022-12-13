@@ -57,7 +57,7 @@ const Search = ({ onGetInput }) => {
             }
           />
           <Input
-            type="tel"
+            type="text"
             placeholder="search for city..."
             _placeholder={{
               textTransform: "none",
@@ -72,7 +72,7 @@ const Search = ({ onGetInput }) => {
               w: { base: "fit-content" },
               borderBottom: "white",
               // mr: { base: "10px", sm: "0" },
-              px: { base: "50px", sm: "50px" },
+              px: { base: "30px", sm: "50px" },
               bgGradient: `linear(${gradient})`,
               boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
             }}
