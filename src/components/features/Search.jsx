@@ -38,7 +38,7 @@ const Search = ({ onGetInput }) => {
   return (
     <Stack
       position="absolute"
-      right={{ base: `-10px`, lg: "10px", md: "-210px", sm: "100px" }}
+      right={{ base: `50px`, lg: "10px", md: "-210px", sm: "100px" }}
       zIndex="99"
       top={{ sm: "20px", md: "5px", lg: "5px" }}
       // mt={{ sm: "50px", md: "0" }}
@@ -72,7 +72,7 @@ const Search = ({ onGetInput }) => {
               w: { base: "fit-content" },
               borderBottom: "white",
               // mr: { base: "10px", sm: "0" },
-              px: { base: "30px", sm: "50px" },
+              px: { base: "50px", sm: "50px" },
               bgGradient: `linear(${gradient})`,
               boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
             }}
